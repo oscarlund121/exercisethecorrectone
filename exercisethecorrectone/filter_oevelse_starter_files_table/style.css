@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "cutta";
+  src: url("fonts/cutta/Cutta-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monhugo-in";
+  src: url("fonts/monhugo/MonHugo-in.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monhugo-out";
+  src: url("fonts/monhugo/MonHugo-out.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raster";
+  src: url("fonts/raster/RasterForgeRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "kamoi";
+  src: url("fonts/kamoi/UTKamoiSansDemo.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color: #DBCF96;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "raster", sans-serif;
+  font-size: 4rem;
+  color: #270722;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140, 140, 140);
+  font-family: "kamoi", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: #ecce8e;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #ecce8e;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: #c2c6a7;
+}
+
+tfoot th {
+  text-align: left;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #9ac2c5;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showAll{
+    background-color: #E56B6F;
+}
+
+button {
+    font-family: "comicFont", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6D597A;
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+ 
