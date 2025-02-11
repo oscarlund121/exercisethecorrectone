@@ -1,0 +1,59 @@
+body {
+  font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  text-align: left;
+  font-size: 2.5em;
+  color: #457b9d;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+
+[data-action] {
+  cursor: pointer;
+  font-weight: bold;
+  color: #e63946; 
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+
+#sorting th.sortby {
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #457b9d;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+
+#list {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#list tbody tr td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  text-align: center;
+}
+
+#list tbody tr:nth-child(odd) td {
+  background-color: #ffebcd;
+}
+
+#list tbody tr:nth-child(even) td {
+  background-color: #fff8dc;
+}
+
+#list thead th {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 0 black;
+}
