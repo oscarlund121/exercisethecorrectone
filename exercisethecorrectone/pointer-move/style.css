@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(200, var(--saturation, 50%), var(--lightness, 50%));
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+}
