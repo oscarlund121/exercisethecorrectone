@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+#container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: #ffd046;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#needle {
+  position: absolute;
+  width: 8px;
+  height: 50%;
+  background: #241e4e;
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+#gauge {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ticks {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: black;
+}
+
+#display {
+  position: absolute;
+  bottom: 20px;
+  width: 150px;
+  height: 130px;
+  text-align: center;
+  font-size: 4.5em;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 100%;
+  line-height: 130px;
+  font-weight: bold;
+  color: #241e4e;
+}
