@@ -1,0 +1,35 @@
+header {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+
+}
+
+h1 {
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+button {
+  align-self: center; 
+}
+
+
+
+
+
+@layer setup {
+  header {
+    font-family: system-ui;
+    outline: 1px solid #000;
+    max-width: 600px;
+  }
+
+  button {
+    border: 0;
+    font: inherit;
+    background: unset;
+    display: grid;
+    padding: .4rem;
+  }
+}
